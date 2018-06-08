@@ -1,7 +1,44 @@
-h1 {
-    color:red;
+body {
+  font-family: Helvetica , "游ゴシック", sans-serif;
 }
 
-p {
-    color:blue;
+hr {
+    color: #e74c3c;
+}
+
+h2 {
+    color: #e74c3c;
+}
+
+.table td, .table th {
+    padding: .50rem;
+    vertical-align: top;
+    border-top: 0px;
+}
+
+.footer {
+    height: 200px;
+    background-color: #e74c3c;
+}
+
+.underline {
+    border-bottom:black solid 1px;
+}
+
+.boldfont {
+    font-weight: bold;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+footer p {
+    color: white
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
 }
